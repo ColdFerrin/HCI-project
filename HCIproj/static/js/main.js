@@ -19,6 +19,8 @@ function getData() {
         .done(function(responseIn) {
             var response = responseIn;
             Display(response);
+            var element = document.getElementById('indiv');
+            element.classList.add("hide");
         })
         .fail(function (data) {
             isGood = false;

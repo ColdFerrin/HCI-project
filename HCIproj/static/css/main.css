@@ -13,3 +13,7 @@ html, body {
 .content {
     height: 100%;
 }
+
+.hide {
+   visibility: hidden;
+}
