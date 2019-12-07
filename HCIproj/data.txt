@@ -1,1 +1,1 @@
-{"home": "prc", "xpos": -112.42, "ypos": 34.65167, "alt": 5024, "hdg": 207, "kias": 0, "time": "Sat Dec  7 01:11:54 2019"}
+{"home": "prc", "xpos": -112.42, "ypos": 34.65167, "alt": 5024, "hdg": 207, "kias": 0, "time": "Sat Dec  7 17:48:32 2019"}
