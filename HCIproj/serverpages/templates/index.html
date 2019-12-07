@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Home</title>
+  {% load static %}    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="{% static "js/main.js" %}"> </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8WyXRU5GG3pdozW4qx_lNKioVs9aI-l8&callback=initMap"> </script>
+</head>
+<body>
+  <div id="indiv">
+    Home Airport: <input id="home" type="text" placeholder="Home Airport" name="home">
+    <button id="btn" class="btn btn-default">Submit</button>
+  </div>
+  <div id="content">  
+  <div id="pos"></div>
+  <div id="map"></div>
+  </div>
+</body>
+</html>
